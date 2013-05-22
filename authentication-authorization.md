@@ -15,7 +15,7 @@ Authorization Header
 The scheme for the Authorization Header Should be `ZazzApi`.
 For almost all calls you need to provide 4 parameters in the Authorization Header:
 
-1. The Application Id that is given you followed by a `:`
+1. The Application Id that is given to you followed by a `:`
 2. Signature of the request followed by a `:` (Signing the request is explained below)
 3. User Id which will be given to you after a successful login followed by a `:`
 4. Hash of the user password. (You can find more details below)
@@ -24,7 +24,7 @@ The format will be `ZazzApi AppId:RequestSignature:UserId:PasswordHash`
 
 Example: `Authorization: ZazzApi 1:zgVMNvtvXoONhw3d4e4PfNzWowPiFIhyCTE6f3deRSS19iu8xkZ8ZAhZRQM0xJqzV3b3P709UFhK2/weYElVkA==:2:plXhubLyLT5LhEhM16qHehQqrf6z7Jgns8SPhNr6gAQvqUpbdWCgVDZ8ku+VFoU2LMjuPi/h1EfB9owzCXknSA==`
 
-**Note:** There are few requests that you can exclude *UserId* and the *Password Signature* such as login request. Those requests are explicitly marked in the documentation. For all other requests you need to provide the full *Authorization* header.
+**Note:** There are few requests that you can exclude *UserId* and the *Password Signature* such as login request. Those requests are explicitly marked in the documentation. For all other requests you'll need to provide the full *Authorization* header.
 
 Signing the request
 -
