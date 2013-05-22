@@ -5,7 +5,7 @@ For securing the API we'll be using HMAC based authorization. You will need to i
 
 Date Header
 -
-This doesn't need much explaining. The Date value should be in [RFC1123](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.18) format and not greater than `UtcNow()` and not less than `UtcNow() -1 minute`
+This doesn't need much explaining. The Date value should be in [RFC1123](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.18) format, not greater than `UtcNow()` and not less than `UtcNow() -1 minute`
 
 Example: `Date: Wed, 22 May 2013 18:27:49 GMT`
 
