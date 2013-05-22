@@ -42,3 +42,10 @@ Example:
                                                       body)))
                                                       
                                                       
+Signing the password
+-
+This process is very similar to signing the request:
+
+1. Get the `UTF8` encoding value of the password.
+2. Sign it using `HMAC-SHA512` algorithm with your secret key.
+3. Convert the hash to a base64 string.
