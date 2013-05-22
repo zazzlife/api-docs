@@ -49,3 +49,12 @@ This process is very similar to signing the request:
 1. Get the `UTF8` encoding value of the password.
 2. Sign it using `HMAC-SHA512` algorithm with your secret key.
 3. Convert the hash to a base64 string.
+ 
+###Here's a complete HTTP Header example:###
+
+    GET /api/v1/login HTTP/1.1
+    Host: test.zazzlife.com
+    Accept: application/json
+    Date: Wed, 22 May 2013 18:27:49 GMT
+    Authorization: ZazzApi 1:zgVMNvtvXoONhw3d4e4PfNzWowPiFIhyCTE6f3deRSS19iu8xkZ8ZAhZRQM0xJqzV3b3P709UFhK2/weYElVkA==:2:plXhubLyLT5LhEhM16qHehQqrf6z7Jgns8SPhNr6gAQvqUpbdWCgVDZ8ku+VFoU2LMjuPi/h1EfB9owzCXknSA==
+
