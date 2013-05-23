@@ -16,9 +16,10 @@ Please first checkout:
 
 Available endpoints
 -
-*to be documented...*
+* [Login](https://github.com/zazzlife/api-docs/blob/master/endpoints/login.md)
 
 Objects
 -
-*to be documented...*
+* [PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)
+
 
