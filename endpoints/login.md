@@ -1,7 +1,7 @@
 Login
 =
 
-Path: `/api/v1/login`
+Path: `/api/v1/login`  
 ***This request only requires you to pass the `AppId` and `Request Signature` in the `Authorization`Header***
 
 Available methods:
