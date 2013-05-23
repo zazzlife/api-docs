@@ -9,7 +9,7 @@ Please first checkout:
 -
 
 * [How Authentication and Authorization works](https://github.com/zazzlife/api-docs/blob/master/authentication-authorization.md)
-* [Logging in *(not available yet)*](about:blank)
+* [Logging in](https://github.com/zazzlife/api-docs/blob/master/endpoints/login.md)
 * [Registration *(not available yet)*](about:blank)
 * [Logging in with facebook *(Need advice)*](about:blank)
 
