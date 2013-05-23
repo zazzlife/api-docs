@@ -22,10 +22,10 @@ POST
 </table>
 
 ###Response###
-<table>
-    <tr><th>Property Name</th><th>Type</th><th>Description</th></tr>
-    <tr><td>id</td><td>integer</td><td>User Id.</td></tr>
-    <tr><td>accountType</td><td>enum</td><td>Possible values: User | Club</td></tr>
-    <tr><td>displayName</td><td>string</td><td>display name of the user. For clubs it'll be the club name and for users it's their full name or if it's empty their username.</td></tr>
-    <tr><td>displayPhoto</td><td>object</td><td>the user profile photo.</td></tr>
-</table>
+
+|Property Name|Type|Description|
+|-------------|----|-----------|
+|id|integer|User Id.|
+|accountType|enum|Possible values: User | Club|
+|displayName|string|display name of the user. For clubs it'll be the club name and for users it's their full name or if it's empty their username.|
+|displayPhoto|[object](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)|the user profile photo.|
