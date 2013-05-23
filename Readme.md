@@ -8,7 +8,7 @@ if you have any issues or suggestions feel free to open an issue.
 Please first checkout:
 -
 
-* [How Authentication and Authorization works *(not available yet)*](about:blank)
+* [How Authentication and Authorization works](https://github.com/zazzlife/api-docs/blob/master/authentication-authorization.md)
 * [Logging in *(not available yet)*](about:blank)
 * [Registration *(not available yet)*](about:blank)
 * [Logging in with facebook *(Need advice)*](about:blank)
