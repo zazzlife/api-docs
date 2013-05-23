@@ -26,6 +26,6 @@ POST
 |Property Name|Type|Description|
 |-------------|----|-----------|
 |id|integer|User Id.|
-|accountType|enum|Possible values: User | Club|
+|accountType|enum|Possible values: (User, Club)|
 |displayName|string|display name of the user. For clubs it'll be the club name and for users it's their full name or if it's empty their username.|
 |displayPhoto|[object](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)|the user profile photo.|
