@@ -12,7 +12,7 @@ Example: `Date: Wed, 22 May 2013 18:27:49 GMT`
 Authorization Header
 -
 
-The scheme for the Authorization Header Should be `ZazzApi`.
+The scheme for the Authorization Header should be `ZazzApi`.
 For almost all calls you need to provide 4 parameters in the Authorization Header:
 
 1. The Application Id that is given to you followed by a `:`
