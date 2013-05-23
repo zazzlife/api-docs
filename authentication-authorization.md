@@ -52,7 +52,7 @@ This process is very similar to signing the request:
  
 ###Here's a complete HTTP Header example:###
 
-    GET /api/v1/login HTTP/1.1
+    GET /api/v1/user/1 HTTP/1.1
     Host: test.zazzlife.com
     Accept: application/json
     Date: Wed, 22 May 2013 18:27:49 GMT
