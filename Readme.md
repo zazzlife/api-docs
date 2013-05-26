@@ -21,5 +21,17 @@ Available endpoints
 Objects
 -
 * [PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)
+* [Album](https://github.com/zazzlife/api-docs/blob/master/objects/album.md)
+* [City](https://github.com/zazzlife/api-docs/blob/master/objects/city.md)
+* [ClubType](https://github.com/zazzlife/api-docs/blob/master/objects/clubtype.md)
+* [Comment](https://github.com/zazzlife/api-docs/blob/master/objects/comment.md)
+* [Event](https://github.com/zazzlife/api-docs/blob/master/objects/event.md)
+* [Feed](https://github.com/zazzlife/api-docs/blob/master/objects/feed.md)
+* [Major](https://github.com/zazzlife/api-docs/blob/master/objects/major.md)
+* [Photo](https://github.com/zazzlife/api-docs/blob/master/objects/photo.md)
+* [Post](https://github.com/zazzlife/api-docs/blob/master/objects/post.md)
+* [School](https://github.com/zazzlife/api-docs/blob/master/objects/school.md)
+* [Tag](https://github.com/zazzlife/api-docs/blob/master/objects/tag.md)
+* [User](https://github.com/zazzlife/api-docs/blob/master/objects/user.md)
 
 
