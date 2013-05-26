@@ -1,7 +1,7 @@
 Authentication And Authorization
 =
 
-For securing the API we'll be using HMAC based authorization. You need to include the `Date` and `Authorization` HTTP headers.
+For securing the API we'll be using a kind of HMAC based authorization. You need to include the `Date` and `Authorization` HTTP headers.
 
 Date Header
 -
