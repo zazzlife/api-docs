@@ -13,3 +13,5 @@ Feed
 |post|[Post](https://github.com/zazzlife/api-docs/blob/master/objects/post.md)|this is only available when the feed type is `post`|
 |event|[Event](https://github.com/zazzlife/api-docs/blob/master/objects/event.md)|this is only available when the feed type is `event`|
 |comments|collection of [Comment](https://github.com/zazzlife/api-docs/blob/master/objects/comment.md)||
+
+* If the feed type is `Photo` and its `photos` property has more than one photo in it, the `comments` property will be null.
