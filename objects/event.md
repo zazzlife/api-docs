@@ -18,7 +18,6 @@ Event
 |isFacebookEvent|bool||
 |facebookLink|string||
 |isDateOnly|bool||
-|isFromCurrentUser|bool|is true of the user that is browsing created the event, this is useful when you might want to show edit/remove|
 |userId|integer|id of the user that creted the event|
 |userDisplayPhoto|[PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)|display photo of the user that created the event|
 |userDisplayName|string|display name of the user that created the event|
