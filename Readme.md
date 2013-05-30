@@ -23,7 +23,6 @@ Objects
 * [PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)
 * [Album](https://github.com/zazzlife/api-docs/blob/master/objects/album.md)
 * [City](https://github.com/zazzlife/api-docs/blob/master/objects/city.md)
-* [ClubType](https://github.com/zazzlife/api-docs/blob/master/objects/clubtype.md)
 * [Comment](https://github.com/zazzlife/api-docs/blob/master/objects/comment.md)
 * [Event](https://github.com/zazzlife/api-docs/blob/master/objects/event.md)
 * [Feed](https://github.com/zazzlife/api-docs/blob/master/objects/feed.md)
