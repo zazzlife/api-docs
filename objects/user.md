@@ -47,4 +47,4 @@ ClubDetails
 |coverPhotoId|integer|can be null|
 |coverPhoto|[PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)|
 |clubTypeId|integer||
-|clubType|[ClubType](https://github.com/zazzlife/api-docs/blob/master/objects/clubtype.md)||
+|clubType|enum|one of the following: (Bar, Lounge, Nightclub, ConcertVenue, StudentAssociation, Sorority|
