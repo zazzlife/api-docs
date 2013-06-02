@@ -19,6 +19,7 @@ GET
 *(right now this returns all user albums but we'll limit it to 5 or 10 albums, later on.)*
 
 #####Request parameters#####
+
 |Property Name|Type|Description|
 |-------------|----|-----------|
 |userId|integer|user Id.|
@@ -27,7 +28,7 @@ GET
 
 #####Response: collection of [Album](https://github.com/zazzlife/api-docs/blob/master/objects/album.md)#####
 
-
+-----------------------
 
 ####Getting a single album: `/api/v1/albums/{id}`####
 
@@ -36,5 +37,18 @@ GET
 |Property Name|Type|Description|
 |-------------|----|-----------|
 |id|integer|album Id.|
+
+#####Response: [Album](https://github.com/zazzlife/api-docs/blob/master/objects/album.md)#####
+
+POST
+-
+####`/api/v1/albums`####
+
+#####Request parameters#####
+
+|Property Name|Type|Description|
+|-------------|----|-----------|
+|name|string|album name|
+
 
 #####Response: [Album](https://github.com/zazzlife/api-docs/blob/master/objects/album.md)#####
