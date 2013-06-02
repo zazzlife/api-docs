@@ -14,24 +14,27 @@ Available methods:
 
 GET
 -
-###Getting user albums: `/api/v1/albums?userId={id}&lastAlbum={albumId}`###
+####Getting user albums: `/api/v1/albums?userId={id}&lastAlbum={albumId}`####
 
 *(right now this returns all user albums but we'll limit it to 5 or 10 albums, later on.)*
 
-####Request parameters####
+#####Request parameters#####
 |Property Name|Type|Description|
 |-------------|----|-----------|
 |userId|integer|user Id.|
 |lastAlbum|integer|`optional` id of the last album that you've received. Used for pagination.|
 
 
-####Response`(collection)`####
+#####Response: collection of [Album](https://github.com/zazzlife/api-docs/blob/master/objects/album.md)#####
+
+
+
+####Getting a single album: `/api/v1/albums/{id}`####
+
+#####Request parameters#####
 
 |Property Name|Type|Description|
 |-------------|----|-----------|
-|albumId|integer||
-|userId|integer|id of the user that created the album.|
-|name|string|album name|
-|thumbnail|[PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)||
-|createdDate|DateTime||
-|photos|CollectionOf [Photo](https://github.com/zazzlife/api-docs/blob/master/objects/photo.md)||
+|id|integer|album Id.|
+
+#####Response: [Album](https://github.com/zazzlife/api-docs/blob/master/objects/album.md)#####
