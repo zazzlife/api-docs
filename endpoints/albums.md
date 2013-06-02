@@ -30,7 +30,7 @@ GET
 
 -----------------------
 
-#####Getting a single album: `/api/v1/albums/{id#####
+#####Getting a single album: `/api/v1/albums/{id}`#####
 
 ######Request parameters######
 
