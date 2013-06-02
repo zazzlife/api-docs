@@ -69,5 +69,16 @@ PUT
 |204|success|
 |400|invalid id|
 |403|user is not authorized to modify the album|
+|404|album doesn't exist|
 
 
+DELETE
+-
+####`/api/v1/albums/{id}`####
+
+######Possible Responses:######
+|HTTP Status Code|Reason|
+|----------------|------|
+|204|success|
+|400|invalid id|
+|403|user is not authorized to delete the album|
