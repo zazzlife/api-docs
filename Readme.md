@@ -16,6 +16,7 @@ Please first checkout:
 
 Available endpoints
 -
+* [Albums](https://github.com/zazzlife/api-docs/blob/master/endpoints/albums.md)
 * [Login](https://github.com/zazzlife/api-docs/blob/master/endpoints/login.md)
 
 Objects
