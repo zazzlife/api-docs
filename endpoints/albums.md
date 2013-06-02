@@ -14,18 +14,18 @@ Available methods:
 
 GET
 -
-Getting user albums: `/api/v1/albums?userId={id}&lastAlbum={albumId}`
+###Getting user albums: `/api/v1/albums?userId={id}&lastAlbum={albumId}`###
 
 *(right now this returns all user albums but we'll limit it to 5 or 10 albums, later on.)*
 
-###Request parameters###
+####Request parameters####
 |Property Name|Type|Description|
 |-------------|----|-----------|
 |userId|integer|user Id.|
 |lastAlbum|integer|`optional` id of the last album that you've received. Used for pagination.|
 
 
-###Response`(collection)`###
+####Response`(collection)`####
 
 |Property Name|Type|Description|
 |-------------|----|-----------|
