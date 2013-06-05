@@ -21,6 +21,8 @@ Available endpoints
 * [Feeds](https://github.com/zazzlife/api-docs/blob/master/endpoints/feeds.md)
 * [Login](https://github.com/zazzlife/api-docs/blob/master/endpoints/login.md)
 * [Majors](https://github.com/zazzlife/api-docs/blob/master/endpoints/majors.md)
+* [PartyWeb](https://github.com/zazzlife/api-docs/blob/master/endpoints/partyweb.md)
+* [Posts](https://github.com/zazzlife/api-docs/blob/master/endpoints/posts.md)
 * [Schools](https://github.com/zazzlife/api-docs/blob/master/endpoints/schools.md)
 * [Tags](https://github.com/zazzlife/api-docs/blob/master/endpoints/tags.md)
 
@@ -33,6 +35,7 @@ Objects
 * [Event](https://github.com/zazzlife/api-docs/blob/master/objects/event.md)
 * [Feed](https://github.com/zazzlife/api-docs/blob/master/objects/feed.md)
 * [Major](https://github.com/zazzlife/api-docs/blob/master/objects/major.md)
+* [PartyWebFollow](https://github.com/zazzlife/api-docs/blob/master/objects/partywebfollow.md)
 * [Photo](https://github.com/zazzlife/api-docs/blob/master/objects/photo.md)
 * [Post](https://github.com/zazzlife/api-docs/blob/master/objects/post.md)
 * [School](https://github.com/zazzlife/api-docs/blob/master/objects/school.md)
