@@ -15,4 +15,4 @@ GET
 -
 #####Getting a list of users that are in the current user party web: `/api/v1/partyweb`#####
 
-######Response: collection of [PartyWebFollower](https://github.com/zazzlife/api-docs/blob/master/objects/partywebfollower.md)######
+######Response: collection of [PartyWebFollow](https://github.com/zazzlife/api-docs/blob/master/objects/partywebfollower.md)######
