@@ -17,7 +17,12 @@ Please first checkout:
 Available endpoints
 -
 * [Albums](https://github.com/zazzlife/api-docs/blob/master/endpoints/albums.md)
+* [Cities](https://github.com/zazzlife/api-docs/blob/master/endpoints/cities.md)
+* [Feeds](https://github.com/zazzlife/api-docs/blob/master/endpoints/feeds.md)
 * [Login](https://github.com/zazzlife/api-docs/blob/master/endpoints/login.md)
+* [Majors](https://github.com/zazzlife/api-docs/blob/master/endpoints/majors.md)
+* [Schools](https://github.com/zazzlife/api-docs/blob/master/endpoints/schools.md)
+* [Tags](https://github.com/zazzlife/api-docs/blob/master/endpoints/tags.md)
 
 Objects
 -
