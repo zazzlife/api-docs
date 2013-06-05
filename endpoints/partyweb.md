@@ -7,7 +7,7 @@ Available methods:
 
 |Method|Description|
 |------|-----------|
-|GET|used for getting user followers|
+|GET|used for getting current user's party web|
 |POST|used for follow a user|
 |DELETE|used for unfollow a user|
 
@@ -36,3 +36,20 @@ POST
 |400|invalid user id|
 |404|user doesn't exist|
 
+
+DELETE
+-
+#####unfollow a user `/api/v1/partyweb/{userId}`#####
+
+
+######Request parameters######
+
+|Property Name|Type|Description|
+|-------------|----|-----------|
+|userId|integer|id of the user to unfollow.|
+
+######Possible Responses:######
+|HTTP Status Code|Reason|
+|----------------|------|
+|204|success|
+|400|invalid user id|
