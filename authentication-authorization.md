@@ -28,7 +28,7 @@ Example: `Authorization: ZazzApi 1:zgVMNvtvXoONhw3d4e4PfNzWowPiFIhyCTE6f3deRSS19
 
 Signing the request
 -
-You need to sign the following items using your application request signing key for every request: `HTTP Verb`, `Date Header Value`, `Url Path` and `HTTP Body` if available.
+You need to sign the following items using your application **request signing key** for every request: `HTTP Verb`, `Date Header Value`, `Url Path` and `HTTP Body` if available.
 
 1. Get the `UTF8` encoding value of these strings.
 2. Sign it using `HMAC-SHA512` algorithm with your secret key.
@@ -47,7 +47,7 @@ Signing the password
 This process is very similar to signing the request:
 
 1. Get the `UTF8` encoding value of the password.
-2. Sign it using `HMAC-SHA512` algorithm with your password signing key.
+2. Sign it using `HMAC-SHA512` algorithm with your **password signing key**.
 3. Convert the hash to a base64 string.
  
 ###Here's a complete HTTP Header example:###
