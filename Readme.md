@@ -18,6 +18,9 @@ Available endpoints
 -
 * [Albums](https://github.com/zazzlife/api-docs/blob/master/endpoints/albums.md)
 * [Cities](https://github.com/zazzlife/api-docs/blob/master/endpoints/cities.md)
+* [Comments-Events](https://github.com/zazzlife/api-docs/blob/master/endpoints/comments-events.md)
+* [Comments-Photos](https://github.com/zazzlife/api-docs/blob/master/endpoints/comments-photos.md)
+* [Comments-Posts](https://github.com/zazzlife/api-docs/blob/master/endpoints/comments-posts.md)
 * [Feeds](https://github.com/zazzlife/api-docs/blob/master/endpoints/feeds.md)
 * [Login](https://github.com/zazzlife/api-docs/blob/master/endpoints/login.md)
 * [Majors](https://github.com/zazzlife/api-docs/blob/master/endpoints/majors.md)
