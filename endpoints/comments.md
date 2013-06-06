@@ -26,3 +26,14 @@ PUT
 |400|invalid id or comment text|
 |403|user is not authorized to modify the comment|
 |404|comment doesn't exist|
+
+DELETE
+-
+####`/api/v1/comments/{commentId}`####
+
+######Possible Responses:######
+|HTTP Status Code|Reason|
+|----------------|------|
+|204|success|
+|400|invalid id|
+|403|user is not authorized to remove the comment|
