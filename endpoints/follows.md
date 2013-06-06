@@ -1,25 +1,25 @@
-Partyweb
+Follows
 =
 
-Path: `/api/v1/partyweb`  
+Path: `/api/v1/Follows`  
 
 Available methods:
 
 |Method|Description|
 |------|-----------|
-|GET|used for getting current user's party web|
+|GET|used for getting current user follows|
 |POST|used for follow a user|
 |DELETE|used for unfollow a user|
 
 GET
 -
-#####Getting a list of users that are in the current user party web: `/api/v1/partyweb`#####
+#####Getting a list of users that the current user follows: `/api/v1/follows`#####
 
-######Response: collection of [PartyWebFollow](https://github.com/zazzlife/api-docs/blob/master/objects/partywebfollower.md)######
+######Response: collection of [Follow](https://github.com/zazzlife/api-docs/blob/master/objects/follow.md)######
 
 POST
 -
-#####Add a new user to current user's party web (aka following another user): `/api/v1/partyweb`#####
+#####Follow a user: `/api/v1/follows`#####
 
 *note that if the target user account type is `User` this action will send a follow request.*
 
@@ -39,7 +39,7 @@ POST
 
 DELETE
 -
-#####unfollow a user `/api/v1/partyweb/{userId}`#####
+#####unfollow a user `/api/v1/follows/{userId}`#####
 
 
 ######Request parameters######

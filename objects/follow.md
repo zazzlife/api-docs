@@ -1,4 +1,4 @@
-PartyWebFollower
+Follow
 =
 
 |Name|Type|Description|
