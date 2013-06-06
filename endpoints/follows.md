@@ -1,6 +1,5 @@
 Follows
 =
-***Name and the return object of this endpoint is subject to change***
 
 Path: `/api/v1/Follows`  
 
