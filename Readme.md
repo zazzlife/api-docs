@@ -10,7 +10,7 @@ Please first checkout:
 
 * [How Authentication and Authorization works](https://github.com/zazzlife/api-docs/blob/master/authentication-authorization.md)
 * [Logging in](https://github.com/zazzlife/api-docs/blob/master/endpoints/login.md)
-* [Registration *(not available yet)*](about:blank)
+* [Registration](https://github.com/zazzlife/api-docs/blob/master/endpoints/register.md)
 * [Logging in with facebook *(Need advice)*](about:blank)
 
 
@@ -27,6 +27,7 @@ Available endpoints
 * [Majors](https://github.com/zazzlife/api-docs/blob/master/endpoints/majors.md)
 * [Follows](https://github.com/zazzlife/api-docs/blob/master/endpoints/follows.md)
 * [Posts](https://github.com/zazzlife/api-docs/blob/master/endpoints/posts.md)
+* [Register](https://github.com/zazzlife/api-docs/blob/master/endpoints/register.md)
 * [Schools](https://github.com/zazzlife/api-docs/blob/master/endpoints/schools.md)
 * [Tags](https://github.com/zazzlife/api-docs/blob/master/endpoints/tags.md)
 
