@@ -27,6 +27,7 @@ Available endpoints
 * [Majors](https://github.com/zazzlife/api-docs/blob/master/endpoints/majors.md)
 * [Follows](https://github.com/zazzlife/api-docs/blob/master/endpoints/follows.md)
 * [Posts](https://github.com/zazzlife/api-docs/blob/master/endpoints/posts.md)
+* [Profile](https://github.com/zazzlife/api-docs/blob/master/endpoints/profile.md)
 * [Register](https://github.com/zazzlife/api-docs/blob/master/endpoints/register.md)
 * [Schools](https://github.com/zazzlife/api-docs/blob/master/endpoints/schools.md)
 * [Tags](https://github.com/zazzlife/api-docs/blob/master/endpoints/tags.md)
@@ -46,5 +47,6 @@ Objects
 * [School](https://github.com/zazzlife/api-docs/blob/master/objects/school.md)
 * [Tag](https://github.com/zazzlife/api-docs/blob/master/objects/tag.md)
 * [User](https://github.com/zazzlife/api-docs/blob/master/objects/user.md)
+* [Weekly](https://github.com/zazzlife/api-docs/blob/master/objects/weekly.md)
 
 
