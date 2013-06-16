@@ -31,6 +31,7 @@ Available endpoints
 * [Register](https://github.com/zazzlife/api-docs/blob/master/endpoints/register.md)
 * [Schools](https://github.com/zazzlife/api-docs/blob/master/endpoints/schools.md)
 * [Tags](https://github.com/zazzlife/api-docs/blob/master/endpoints/tags.md)
+* [Weeklies](https://github.com/zazzlife/api-docs/blob/master/endpoints/weeklies.md)
 
 Objects
 -
