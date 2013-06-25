@@ -22,6 +22,7 @@ Available endpoints
 * [Comments-Photos](https://github.com/zazzlife/api-docs/blob/master/endpoints/comments-photos.md)
 * [Comments-Posts](https://github.com/zazzlife/api-docs/blob/master/endpoints/comments-posts.md)
 * [Comments](https://github.com/zazzlife/api-docs/blob/master/endpoints/comments.md)
+* [Events](https://github.com/zazzlife/api-docs/blob/master/endpoints/events.md)
 * [Feeds](https://github.com/zazzlife/api-docs/blob/master/endpoints/feeds.md)
 * [Login](https://github.com/zazzlife/api-docs/blob/master/endpoints/login.md)
 * [Majors](https://github.com/zazzlife/api-docs/blob/master/endpoints/majors.md)
