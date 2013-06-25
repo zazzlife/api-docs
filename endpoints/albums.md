@@ -7,14 +7,14 @@ Available methods:
 
 |Method|Description|
 |------|-----------|
-|GET|used for getting user albums and a signle album|
+|GET|used for getting user albums or a signle album|
 |POST|used for creating a new album|
 |PUT|used for editing an album|
 |DELETE|used for deleting an album|
 
 GET
 -
-#####Getting user albums: `/api/v1/albums?userId={id}&lastAlbum={albumId}`#####
+#####Getting user albums: `/api/v1/users/{userId}/albums?lastAlbum={albumId}`#####
 
 *(right now this returns all user albums but we'll limit it to 5 or 10 albums, later on.)*
 
