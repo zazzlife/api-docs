@@ -3,6 +3,7 @@ Notification
 
 |Name|Type|Description|
 |----|----|-----------|
+|notificationId|integer (64 bit)||
 |userId|integer||
 |displayPhoto|[PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)||
 |displayName|string||
