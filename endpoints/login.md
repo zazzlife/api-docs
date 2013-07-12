@@ -1,45 +1,63 @@
 Login
 =
 
-Path: `/api/v1/login`  
-***This request only requires you to pass the `AppId` and `Request Signature` in the `Authorization`Header***
+Path: `/api/v1/token`  
 
-Available methods:
-<table>
-    <tr><th>Method</th><th>Description</th></tr>
-    <tr><td>POST</td><td>Used for logging in.</td></tr>
-</table>
-
-POST
+Getting an access token
 -
+* HTTP Method should be `POST`
+* Authorization header should be: `Basic hdi7o53NSeilrq7oQihy69PvH9BBQtw5QfcJy4ALBuY`
+* Content-Type should be: `application/x-www-form-urlencoded`
+
 ###Request parameters###
-<table>
+|Property Name|Type|Description|
+|-------------|----|-----------|
+|grant_type|string|grant type should be set to `password`|
+|username|string|username in clear text|
+|password|string|password in clear text|
+|scope|string|scope should be set to `full`|
 
-    <tr><th>Property Name</th><th>Type</th><th>Description</th></tr>
-    <tr><td>appId</td><td>integer</td><td>The application id that is provided to you.</td></tr>
-    <tr><td>username</td><td>string</td><td></td></tr>
-    <tr><td>password</td><td>string</td><td>It's exactly like signing the password for the Authorization header. It should be Base64 representation of the HMAC-SHA512 hash of the provided password.</td></tr>
-</table>
+example:
 
-###Response###
+    POST /api/v1/token HTTP/1.1
+    Host: localhost:17433
+    Authorization: Basic hdi7o53NSeilrq7oQihy69PvH9BBQtw5QfcJy4ALBuY
+    Cache-Control: no-cache
+    Content-Type: application/x-www-form-urlencoded
+    
+    grant_type=password&username=soroush&password=123&scope=full
+
+###Success Response###
 
 |Property Name|Type|Description|
 |-------------|----|-----------|
-|id|integer|User Id.|
-|accountType|enum|Possible values: (User, Club)|
-|displayName|string|display name of the user. For clubs it'll be the club name and for users it's their full name or if it's empty their username.|
-|displayPhoto|[object](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)|the user profile photo.|
+|access_token|string|use this access token in auth header for all resource API calls|
+|token_type|string|scheme of the token|
+|expires_in|integer|token expiration time in seconds|
+|refresh_token|string|use this token to get a new access token|
+|user.userId|integer|User Id.|
+|user.accountType|enum|Possible values: (User, Club)|
+|user.isConfirmed|bool|`true` if user has confirmed his email address|
+|user.displayName|string|display name of the user. For clubs it'll be the club name and for users it's their full name or if it's empty their username.|
+|user.displayPhoto|[object](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)|the user profile photo.|
 
 example:
 
     {
-      "id":8,
-      "accountType":"User",
-      "displayName":"testUser",
-      "displayPhoto":{
-        "verySmallLink":"http://localhost:17433/Images/placeholder.gif",
-        "smallLink":"http://localhost:17433/Images/placeholder.gif",
-        "mediumLink":"http://localhost:17433/Images/placeholder.gif",
-        "originalLink":"http://localhost:17433/Images/placeholder.gif"
-      }
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjEzNzM2MTQ0MDksImF1ZCI6IlphenogY2xpZW50cyIsInVzciI6MSwiY2xpZW50IjoxLCJpc3MiOiJodHRwczovL3d3dy56YXp6bGlmZS5jb20iLCJ0b2tlblR5cGUiOiJhY2Nlc3NUb2tlbiIsIm5iZiI6MTM3MzYxMDgwOX0.-hHF7Cp7EOT-Rh92ipPmBOdDgZ2fYB-kaaAT6sHFW38",
+        "token_type": "Bearer",
+        "expires_in": 3600,
+        "refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXJpZnkiOiJaZ0lkVzZPajRiWVd2K2ZLdWxidnVVajA4UC9qcHNOSzZ6eU9zZFpRQzJORzFHVWVsOFpJWEx2TDhmRGVkTVEyWkdkblZnejUrYUFmZ0pIRkJJbytsWGVaaFQzMVFQQ0EraFFpdUI2SzVzV0xGMFZiRGdTUlg4aFJxYUcxM28vVzRmTldyaWtOM3p6SDB3ZlM5Z29hcWljbktUa1hMZnV2SHRlZ1BDdk0xNGM9IiwiaWQiOjEsImF1ZCI6IlphenogY2xpZW50cyIsInVzciI6MSwiY2xpZW50IjoxLCJpc3MiOiJodHRwczovL3d3dy56YXp6bGlmZS5jb20iLCJ0b2tlblR5cGUiOiJyZWZyZXNoVG9rZW4iLCJuYmYiOjEzNzM2MTA4MDh9.UIfWpBg0YPQGL3q28OQTO_BINViI4LRgO0AxjpxPdhY",
+        "user": {
+            "userId": 1,
+            "accountType": "User",
+            "isConfirmed": false,
+            "displayName": "Soroush",
+            "displayPhoto": {
+                "verySmallLink": "http://localhost:17433/Images/placeholder.gif",
+                "smallLink": "http://localhost:17433/Images/placeholder.gif",
+                "mediumLink": "http://localhost:17433/Images/placeholder.gif",
+                "originalLink": "http://localhost:17433/Images/placeholder.gif"
+            }
+        }
     }
