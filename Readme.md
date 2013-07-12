@@ -8,7 +8,6 @@ if you have any issues or suggestions feel free to open an issue or contact me v
 Please first checkout:
 -
 
-* [How Authentication and Authorization works](https://github.com/zazzlife/api-docs/blob/master/authentication-authorization.md)
 * [Logging in](https://github.com/zazzlife/api-docs/blob/master/endpoints/login.md)
 * [Registration](https://github.com/zazzlife/api-docs/blob/master/endpoints/register.md)
 
