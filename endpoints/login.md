@@ -61,3 +61,15 @@ example:
             }
         }
     }
+
+###Error Response###
+* `unsupported_grant_type`: `grant_type` is not set to `password`
+* `invalid_client`: the Authorization header is not set or is wrong.
+* `invalid_request`: one of the following is missing: `scope`, `username`, `password`
+* `invalid_scope`: the scope is invalid, it should be `full`
+* `invalid_grant`: the `username` or `password` is wrong
+
+example:
+
+    {"error":"invalid_grant"}
+
