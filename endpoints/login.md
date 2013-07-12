@@ -73,6 +73,17 @@ example:
 
     {"error":"invalid_grant"}
 
+From now on, you should send the `access token` that you received with all requests, to access resources.
+
+example:
+
+    GET /api/v1/users/1/profile HTTP/1.1
+    Host: localhost:17433
+    Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjEzNzM2MTQ0MDksImF1ZCI6IlphenogY2xpZW50cyIsInVzciI6MSwiY2xpZW50IjoxLCJpc3MiOiJodHRwczovL3d3dy56YXp6bGlmZS5jb20iLCJ0b2tlblR5cGUiOiJhY2Nlc3NUb2tlbiIsIm5iZiI6MTM3MzYxMDgwOX0.-hHF7Cp7EOT-Rh92ipPmBOdDgZ2fYB-kaaAT6sHFW38
+    Cache-Control: no-cache
+    Content-Type: application/x-www-form-urlencode
+
+
 Refreshing access token
 -
 * HTTP Method should be `POST`
