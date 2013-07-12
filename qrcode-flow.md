@@ -1,0 +1,5 @@
+1. **User** gets his unique QRCode ([doc](https://github.com/zazzlife/api-docs/blob/master/endpoints/qrcode.md))
+2. **Club** scans the code and gets information about user ([doc](https://github.com/zazzlife/api-docs/blob/master/objects/qrmodel.md))
+3. **Club** sends a request to get the user to follow him. ([doc](https://github.com/zazzlife/api-docs/blob/master/endpoints/followers-qrcode.md))
+4. **Club** sends a request to get all user available rewards. (soon to be documented)
+4. **Club** can remove a reward. (soon to be documented)
