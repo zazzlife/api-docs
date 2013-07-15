@@ -135,3 +135,6 @@ example:
 ###Error Response###
 * `invalid_client`: the Authorization header is not set or is wrong.
 * `invalid_request`: there was an error in the request, either one of the required properties are missing or they are not in a valid format. (you will receive a description which property was not in a valid format)
+ 
+
+Also you can check if a username is available using this link: `/account/isavailable?username={username}`
