@@ -1,53 +1,66 @@
 Register
+=
+
+Path: `/api/v1/register`
+
+Registering user
 -
-***This request only requires you to pass the `AppId` and `Request Signature` in the `Authorization` Header***
 
-**1. Send a `GET` request to `/api/v1/register`.**
+* HTTP Method should be `POST`
+* Authorization header should be: `Basic hdi7o53NSeilrq7oQihy69PvH9BBQtw5QfcJy4ALBuY`
 
-Response:
+###Request parameters###
+|Property Name|Type|Description|
+|-------------|----|-----------|
+|username|string|`required`|
+|email|string|`required`|
+|password|string|`required` password in clear text|
+|Gender|enum|`required` values can be one of (`Male`, `Female`, `NotSpecified`)|
+|fullName|string|`optional`|
+|accountType|enum|`required` for registering user it should be `User`|
+
+example:
+
+    POST /api/v1/register HTTP/1.1
+    Host: localhost:17433
+    Authorization: Basic hdi7o53NSeilrq7oQihy69PvH9BBQtw5QfcJy4ALBuY
+    Cache-Control: no-cache
+    Content-Type: application/x-www-form-urlencoded
+    
+    username=Soroush&password=123&accountType=User&email=Soroush%40zazzlife.com&gender=Male&fullName=Soroush+Mirzaei
+
+###Success Response###
 
 |Property Name|Type|Description|
 |-------------|----|-----------|
-|requestId|integer (64bit)||
-|token|string||
-|expirationTime|DateTime||
+|access_token|string|use this access token in auth header for all resource API calls|
+|token_type|string|scheme of the token|
+|expires_in|integer|token expiration time in seconds|
+|refresh_token|string|use this token to get a new access token|
+|user.userId|integer|User Id.|
+|user.accountType|enum|Possible values: (User, Club)|
+|user.isConfirmed|bool|`true` if user has confirmed his email address|
+|user.displayName|string|display name of the user. For clubs it'll be the club name and for users it's their full name or if it's empty their username.|
+|user.displayPhoto|[object](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)|the user profile photo.|
 
 example:
 
     {
-      "requestId":7,
-      "token":"CC35D3E171B3C1102E8A32F60A626B6997A92391E9EEDA874EEF6A0723CE1F6EE31C5109FBBCF5A07200A8A5A63447B16DB77FDDBDC41BC83DCB4EC22A2557B0",
-      "expirationTime":"2013-06-08T12:55:11.8743813Z"
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjEzNzM4Nzk3MjQsImF1ZCI6IlphenogY2xpZW50cyIsInVzciI6MSwiY2xpZW50IjoxLCJpc3MiOiJodHRwczovL3d3dy56YXp6bGlmZS5jb20iLCJ0b2tlblR5cGUiOiJhY2Nlc3NUb2tlbiIsInNjb3BlcyI6ImZ1bGwiLCJuYmYiOjEzNzM4NzYxMjR9.aJX5OrZe2mD09IX_7-KpTK0GbNGQAUFZ7wTTJaolW9A",
+        "token_type": "Bearer",
+        "expires_in": 3600,
+        "refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXJpZnkiOiJQYkpycVpNRmswVDBHUXg0VlZ3VEZrczFuMXF2ZVhKcE4zL3N1WXZoVzl4c0JNZ2Zic2tBTWYyc3pTVG1OR2o5NmhlTXdGUnJvSzdqa0lndnFPZ3VFOEdiVmZZRTRyZFVwZGhzNG1TTTdJT3NZRTFyWERPVklPZUZCU1JwVnU3ek5zSXVDa2tjYVU0Y21vNkNybGZteFpDV3RNYy9FK0JJdkdneE9YOWxqOXc9IiwiaWQiOjEsImF1ZCI6IlphenogY2xpZW50cyIsInVzciI6MSwiY2xpZW50IjoxLCJpc3MiOiJodHRwczovL3d3dy56YXp6bGlmZS5jb20iLCJ0b2tlblR5cGUiOiJyZWZyZXNoVG9rZW4iLCJzY29wZXMiOiJmdWxsIiwibmJmIjoxMzczODc2MTI0fQ.7tZqqD1bZe9rL2MJiOO3XH2WOy6YV1MroDP2d_VDcUA",
+        "user": {
+            "userId": 1,
+            "accountType": "User",
+            "isConfirmed": false,
+            "displayName": "Soroush Mirzaei",
+            "displayPhoto": {
+                "verySmallLink": "http://localhost:17433/Images/placeholder.gif",
+                "smallLink": "http://localhost:17433/Images/placeholder.gif",
+                "mediumLink": "http://localhost:17433/Images/placeholder.gif",
+                "originalLink": "http://localhost:17433/Images/placeholder.gif"
+            }
+        }
     }
 
-**2. Open `/account/appregister?requestId={requestId}&token={token}` page on a browser. For `requestId` and `token` use the values you received in the previous step.**
-* At this point we'll take care of registering the user. After a successful registeration we'll redirect user to `/account/appauthsuccess`
-
-**3. Wait until user gets redirected to `/account/appauthsuccess` then read the contents of the page and consider the user logged in.**
-
-Response:
-
-|Property Name|Type|Description|
-|-------------|----|-----------|
-|userId|integer||
-|accountType|enum|Possible values: (User, Club)|
-|passwordSignature|string|use this signature in Authorization header|
-|displayName|string||
-|displayPhoto|[PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)||
-
-example:
-
-    {
-      "userId":8,
-      "accountType":"User",
-      "passwordSignature":"7UeoUtefyJLpwrOgxFjR1Qyf+oo0/cDGAftSoBQssLxLmBLCE2dxpkv62Z7+RZ7+URmb2UMO6enwJofXLa+CKw==",
-      "displayName":"testUser",
-      "displayPhoto":{
-        "verySmallLink":"http://localhost:17433/Images/placeholder.gif",
-        "smallLink":"http://localhost:17433/Images/placeholder.gif",
-        "mediumLink":"http://localhost:17433/Images/placeholder.gif",
-        "originalLink":"http://localhost:17433/Images/placeholder.gif"
-      }
-    }
-
-You should use the exact values of `userId` and `passwordSignature` in the `Authorization` for your next calls.
