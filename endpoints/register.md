@@ -14,7 +14,7 @@ Registering user
 |-------------|----|-----------|
 |username|string|`required`|
 |email|string|`required`|
-|password|string|`required` password in clear text|
+|password|string|`required` password in clear text (max 20 characters)|
 |Gender|enum|`required` values can be one of (`Male`, `Female`, `NotSpecified`)|
 |fullName|string|`optional`|
 |accountType|enum|`required` for registering user it should be `User`|
@@ -64,6 +64,10 @@ example:
         }
     }
 
+###Error Response###
+* `invalid_client`: the Authorization header is not set or is wrong.
+* `invalid_request`: there was an error in the request, either one of the required properties are missing or they are not in a valid format. (you will receive a description which property was not in a valid format)
+
 
 Registering club
 -
@@ -76,7 +80,7 @@ Registering club
 |-------------|----|-----------|
 |username|string|`required`|
 |email|string|`required`|
-|password|string|`required` password in clear text|
+|password|string|`required` password in clear text (max 20 characters)|
 |clubName|string|`required`|
 |clubAddress|string|`optional`|
 |clubType|enum|`required` can be one of the following (`Bar`, `Lounge`, `Nightclub`, `ConcertVenue`, `StudentAssociation`, `Sorority`)|
@@ -126,3 +130,8 @@ example:
             }
         }
     }
+    
+    
+###Error Response###
+* `invalid_client`: the Authorization header is not set or is wrong.
+* `invalid_request`: there was an error in the request, either one of the required properties are missing or they are not in a valid format. (you will receive a description which property was not in a valid format)
