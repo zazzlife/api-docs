@@ -5,12 +5,6 @@ For now the base url is `http://test.zazzlife.com/api/v1/` but for production yo
 
 if you have any issues or suggestions feel free to open an issue or contact me via email.
 
-Please first checkout:
--
-
-* [Logging in](https://github.com/zazzlife/api-docs/blob/master/endpoints/login.md)
-* [Registration](https://github.com/zazzlife/api-docs/blob/master/endpoints/register.md)
-
 Available endpoints
 -
 * [Albums](https://github.com/zazzlife/api-docs/blob/master/endpoints/albums.md)
