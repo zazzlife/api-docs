@@ -8,6 +8,7 @@ if you have any issues or suggestions feel free to open an issue or contact me v
 Available endpoints
 -
 * [Albums](https://github.com/zazzlife/api-docs/blob/master/endpoints/albums.md)
+* [Categories-Feed](https://github.com/zazzlife/api-docs/blob/master/endpoints/categories-feed.md)
 * [Categories](https://github.com/zazzlife/api-docs/blob/master/endpoints/categories.md)
 * [Cities](https://github.com/zazzlife/api-docs/blob/master/endpoints/cities.md)
 * [Comments-Events](https://github.com/zazzlife/api-docs/blob/master/endpoints/comments-events.md)
