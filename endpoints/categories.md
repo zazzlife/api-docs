@@ -1,23 +1,23 @@
-Tags
+Categories
 =
 ***This info hardly changes, so we recommend you to fetch all tags and store it everytime the app starts***
 
-Path: `/api/v1/tags`
+Path: `/api/v1/categories`
 
 Available methods:
 
 |Method|Description|
 |------|-----------|
-|GET|used for getting all or a single tag|
+|GET|used for getting all or a single category|
 
 GET
 -
-#####Getting all tags: `/api/v1/tags`#####
+#####Getting all categories: `/api/v1/categories`#####
 
-######Response: collection of [Tags](https://github.com/zazzlife/api-docs/blob/master/objects/tag.md)######
+######Response: collection of [Category](https://github.com/zazzlife/api-docs/blob/master/objects/category.md)######
 
 -----------------------
 
-#####Getting a single tag: `/api/v1/tags/{id}`#####
+#####Getting a single category: `/api/v1/categories/{id}`#####
 
-######Response: [Tags](https://github.com/zazzlife/api-docs/blob/master/objects/tag.md)######
+######Response: [category](https://github.com/zazzlife/api-docs/blob/master/objects/category.md)######
