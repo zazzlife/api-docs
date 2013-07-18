@@ -8,6 +8,7 @@ if you have any issues or suggestions feel free to open an issue or contact me v
 Available endpoints
 -
 * [Albums](https://github.com/zazzlife/api-docs/blob/master/endpoints/albums.md)
+* [Categories](https://github.com/zazzlife/api-docs/blob/master/endpoints/categories.md)
 * [Cities](https://github.com/zazzlife/api-docs/blob/master/endpoints/cities.md)
 * [Comments-Events](https://github.com/zazzlife/api-docs/blob/master/endpoints/comments-events.md)
 * [Comments-Photos](https://github.com/zazzlife/api-docs/blob/master/endpoints/comments-photos.md)
@@ -25,13 +26,13 @@ Available endpoints
 * [Profile](https://github.com/zazzlife/api-docs/blob/master/endpoints/profile.md)
 * [Register](https://github.com/zazzlife/api-docs/blob/master/endpoints/register.md)
 * [Schools](https://github.com/zazzlife/api-docs/blob/master/endpoints/schools.md)
-* [Tags](https://github.com/zazzlife/api-docs/blob/master/endpoints/tags.md)
-* [Weeklies](https://github.com/zazzlife/api-docs/blob/master/endpoints/weeklies.md)
+* [Weeklies](https://github.com/zazzlife/api-docs/blob/master/endpoints/weeklies.m)
 
 Objects
 -
 * [PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)
 * [Album](https://github.com/zazzlife/api-docs/blob/master/objects/album.md)
+* [Category](https://github.com/zazzlife/api-docs/blob/master/objects/category.md)
 * [City](https://github.com/zazzlife/api-docs/blob/master/objects/city.md)
 * [Comment](https://github.com/zazzlife/api-docs/blob/master/objects/comment.md)
 * [Event](https://github.com/zazzlife/api-docs/blob/master/objects/event.md)
@@ -43,7 +44,6 @@ Objects
 * [Photo](https://github.com/zazzlife/api-docs/blob/master/objects/photo.md)
 * [Post](https://github.com/zazzlife/api-docs/blob/master/objects/post.md)
 * [School](https://github.com/zazzlife/api-docs/blob/master/objects/school.md)
-* [Tag](https://github.com/zazzlife/api-docs/blob/master/objects/tag.md)
 * [User](https://github.com/zazzlife/api-docs/blob/master/objects/user.md)
 * [Weekly](https://github.com/zazzlife/api-docs/blob/master/objects/weekly.md)
 
