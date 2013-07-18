@@ -26,6 +26,7 @@ Available endpoints
 * [Posts](https://github.com/zazzlife/api-docs/blob/master/endpoints/posts.md)
 * [Profile](https://github.com/zazzlife/api-docs/blob/master/endpoints/profile.md)
 * [Register](https://github.com/zazzlife/api-docs/blob/master/endpoints/register.md)
+* [Rewards](https://github.com/zazzlife/api-docs/blob/master/endpoints/rewards.md)
 * [Schools](https://github.com/zazzlife/api-docs/blob/master/endpoints/schools.md)
 * [Weeklies](https://github.com/zazzlife/api-docs/blob/master/endpoints/weeklies.m)
 
@@ -44,6 +45,8 @@ Objects
 * [Notification](https://github.com/zazzlife/api-docs/blob/master/objects/notification.md)
 * [Photo](https://github.com/zazzlife/api-docs/blob/master/objects/photo.md)
 * [Post](https://github.com/zazzlife/api-docs/blob/master/objects/post.md)
+* [QRCodeModel](https://github.com/zazzlife/api-docs/blob/master/objects/qrmodel.md)
+* [Reward](https://github.com/zazzlife/api-docs/blob/master/objects/reward.md)
 * [School](https://github.com/zazzlife/api-docs/blob/master/objects/school.md)
 * [User](https://github.com/zazzlife/api-docs/blob/master/objects/user.md)
 * [Weekly](https://github.com/zazzlife/api-docs/blob/master/objects/weekly.md)
