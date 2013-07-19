@@ -1,0 +1,7 @@
+1. open a browser and point to this location: `/account/oauth/facebook?isMobile=true`
+2. wait until user gets redirected to this location `/loginSuccess`
+3. you can find oauth tokens (`access_token` and `refresh_token`) in the url:
+
+        /loginSuccess#access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjEzNzQyMjE0MzQsImF1ZCI6IlphenogY2xpZW50cyIsInVzciI6MSwiY2xpZW50IjoxLCJpc3MiOiJodHRwczovL3d3dy56YXp6bGlmZS5jb20iLCJ0b2tlblR5cGUiOiJhY2Nlc3NUb2tlbiIsInNjb3BlcyI6ImZ1bGwiLCJuYmYiOjEzNzQyMTc4MzR9.vrJOR8lc4nYdaoZIuCKOYcF4y-6B2BcUAlguo8pIn8I&refresh_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXJpZnkiOiJtS2EreGZCRFQrQks0aTVBOUVpQzRCQkRSRmQ5YXFpZlkyV1E1ZzRNRU1CcFY5SHRlb0xqOXhSdFZ1USt4aElLRWgwN1d2aUllMzVaV25yblB1L3RVb0UxajNEK1hjN1JpK0NCc3JScndCR2VXRTJjRHptTit1Z05KWW4rUDRNbUlITlBla09hMHIzSW5QWXBZV2tQblN1MGVMd3NNamUvbGd6dmxWQnBpUjg9IiwiaWQiOjE2LCJhdWQiOiJaYXp6IGNsaWVudHMiLCJ1c3IiOjEsImNsaWVudCI6MSwiaXNzIjoiaHR0cHM6Ly93d3cuemF6emxpZmUuY29tIiwidG9rZW5UeXBlIjoicmVmcmVzaFRva2VuIiwic2NvcGVzIjoiZnVsbCIsIm5iZiI6MTM3NDIxNzgzNH0.OpB-5fAnzXJBFcJ53kt40lYS4CnYtp8inmTssoY4Ky0
+        
+4. send a request to [me](https://github.com/zazzlife/api-docs/blob/master/endpoints/me.md) with the provided access token to get the basic info about user.
