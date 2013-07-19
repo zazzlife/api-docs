@@ -12,3 +12,4 @@ Post
 |toUserId|integer|will be provided if the user is posted on someone else's wall|
 |toUserDisplayPhoto|[PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)|will be provided if the user is posted on someone else's wall|
 |toUserDisplayName|string|will be provided if the user is posted on someone else's wall|
+|categories|array of integer|category ids|
