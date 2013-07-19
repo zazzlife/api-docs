@@ -34,6 +34,7 @@ POST
 |-------------|----|-----------|
 |message|string|message|
 |toUserId|integer|`optional` should be provided if user is posting on someone else's wall|
+|categories|array of integers|category ids|
 
 
 ######Response: [Post](https://github.com/zazzlife/api-docs/blob/master/objects/post.md)######
@@ -48,6 +49,7 @@ PUT
 |-------------|----|-----------|
 |message|string|message|
 |toUserId|integer|`optional` should be provided if user is posting on someone else's wall|
+|categories|array of integers|category ids|
 
 ######Possible Responses:######
 |HTTP Status Code|Reason|
