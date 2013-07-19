@@ -21,6 +21,7 @@ Available endpoints
 * [Follows](https://github.com/zazzlife/api-docs/blob/master/endpoints/follows.md)
 * [Login](https://github.com/zazzlife/api-docs/blob/master/endpoints/login.md)
 * [Majors](https://github.com/zazzlife/api-docs/blob/master/endpoints/majors.md)
+* [Me](https://github.com/zazzlife/api-docs/blob/master/endpoints/me.md)
 * [Notifications](https://github.com/zazzlife/api-docs/blob/master/endpoints/notifications.md)
 * [Photos](https://github.com/zazzlife/api-docs/blob/master/endpoints/photos.md)
 * [Posts](https://github.com/zazzlife/api-docs/blob/master/endpoints/posts.md)
