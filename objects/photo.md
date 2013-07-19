@@ -10,3 +10,4 @@ Photo
 |userId|integer|id of the uploader|
 |userDisplayName|string|display name of the uploader|
 |userDisplayPhoto|[PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)|display photo of the uploader|
+|categories|array of integer|category ids|
