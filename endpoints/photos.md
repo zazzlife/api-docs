@@ -43,6 +43,7 @@ POST
 |description|string||
 |albumId|int|`optional`|
 |showInFeed|bool||
+|categories|array of integers|category ids|
 
 ***showInFeed property should be `false` for the following scenarios:***
 * photo is uploaded for an event in the create event page.
