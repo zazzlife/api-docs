@@ -7,7 +7,7 @@ Notification
 |userId|integer||
 |displayPhoto|[PhotoLinks](https://github.com/zazzlife/api-docs/blob/master/objects/PhotoLinks.md)||
 |displayName|string||
-|notificationType|enum|can be one of the following (`FollowRequestAccepted`, `CommentOnPhoto`, `CommentOnPost`, `CommentOnEvent`, `NewEvent`, `WallPost`)|
+|notificationType|enum|can be one of the following (`FollowRequestAccepted`, `CommentOnPhoto`, `CommentOnPost`, `CommentOnEvent`, `NewEvent`, `WallPost`,`TagNotification`,`TagPhotoNotification`)|
 |isRead|bool|`true` if user has already seen this notification|
 |time|DateTime||
 |photo|[Photo](https://github.com/zazzlife/api-docs/blob/master/objects/photo.md)|this is only available when the `notificationType` is `CommentOnPhoto`|
