@@ -1,4 +1,4 @@
-Post Like
+Photo Like
 =
 
 Path: `/api/v1/photolike`  

@@ -1,4 +1,4 @@
-Post Like
+Remove Post Like
 =
 
 Path: `/api/v1/removepostlike`  
