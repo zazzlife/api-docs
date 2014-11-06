@@ -1,4 +1,4 @@
-LapLocation
+MapLocation
 =
 
 Path: `/api/v1/maplocation`  
