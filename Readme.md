@@ -38,6 +38,7 @@ Available endpoints
 * [RemovePostLike](https://github.com/zazzlife/api-docs/blob/master/endpoints/removepostlike.md)
 * [Rewards](https://github.com/zazzlife/api-docs/blob/master/endpoints/rewards.md)
 * [Schools](https://github.com/zazzlife/api-docs/blob/master/endpoints/schools.md)
+* [LookUpSearch](https://github.com/zazzlife/api-docs/blob/master/endpoints/search.md)
 * [TopTrend](https://github.com/zazzlife/api-docs/blob/master/endpoints/toptrand.md)
 * [Weeklies](https://github.com/zazzlife/api-docs/blob/master/endpoints/weeklies.m)
 
