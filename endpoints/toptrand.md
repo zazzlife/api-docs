@@ -1,4 +1,4 @@
-TopTrand
+TopTrend
 =
 
 Path: `/api/v1/toptrend`  
