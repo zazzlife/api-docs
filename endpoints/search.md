@@ -3,6 +3,8 @@ Search
 
 Path: `/api/v1/search`
 
+* Authorization header should be: `AuthToken <access_token>`
+
 Available methods:
 
 |Method|Description|
