@@ -1,7 +1,9 @@
 EventInvitation
 =
 
-Path: `/api/v1/eventinvitation`  
+Path: `/api/v1/eventinvitation` 
+
+* Authorization header should be: `AuthToken <access_token>`
 
 Available methods:
 
