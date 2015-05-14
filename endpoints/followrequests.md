@@ -3,6 +3,8 @@ FollowRequests
 
 Path: `/api/v1/followrequests`  
 
+* Authorization header should be: `AuthToken <access_token>`
+
 Available methods:
 
 |Method|Description|
