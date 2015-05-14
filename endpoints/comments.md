@@ -1,7 +1,9 @@
 Comments
 =
 
-Path: `/api/v1/comments`  
+Path: `/api/v1/comments`
+
+* Authorization header should be: `AuthToken <access_token>`
 
 Available methods:
 
