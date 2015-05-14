@@ -4,6 +4,8 @@ Schools
 
 Path: `/api/v1/schools`
 
+* Authorization header should be: `AuthToken <access_token>`
+
 Available methods:
 
 |Method|Description|
