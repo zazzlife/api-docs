@@ -3,6 +3,8 @@ Login
 
 Path: `/api/v1/me`  
 
+* Authorization header should be: `AuthToken <access_token>`
+
 This url gives some basic information about the current user, it requires a valid access token.
 
 ###Request###
