@@ -3,6 +3,8 @@ User Profile
 
 Path: `/api/v1/users/{id}/profile`
 
+* Authorization header should be: `AuthToken <access_token>`
+
 Available methods:
 
 |Method|Description|
