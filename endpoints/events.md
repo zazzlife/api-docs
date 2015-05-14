@@ -3,6 +3,8 @@ Events
 
 Path: `/api/v1/events`  
 
+* Authorization header should be: `AuthToken <access_token>`
+
 Available methods:
 
 |Method|Description|
