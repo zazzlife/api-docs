@@ -3,6 +3,8 @@ Categories Feed
 
 Path: `/api/v1/categoriesstat/{id}`  
 
+* Authorization header should be: `AuthToken <access_token>`
+
 Available methods:
 
 |Method|Description|
