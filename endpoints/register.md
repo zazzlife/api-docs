@@ -18,6 +18,10 @@ Registering user
 |Gender|enum|`required` values can be one of (`Male`, `Female`, `NotSpecified`)|
 |fullName|string|`optional`|
 |accountType|enum|`required` for registering user it should be `User`|
+|birthdate|string|`optional`can be `1987\09\22`|
+|userType|integer|`optional` values can be one of `1` ("I like to Party") or `2`("Promotor")|
+|promotorType|integer|`optional` values can be one of `1` ("Artist"), `2` ("DJ"), `3`("Nightlife Promotor") or `4`("Bar Tender")|
+|majorId|integer|`optional` values can be `1` ("Getting Blackout"), `2`("Beer Pong"), `3`("Tequila Shots"), `4`("Body Shots"), `5`("Being Raunchy"), `6`("Dancing my butt off"), `7`("Getting Krunk") or `8`("Chugging beer")|
 
 example:
 
