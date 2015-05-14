@@ -1,7 +1,9 @@
 Categories Feed
 =
 
-Path: `/api/v1/categories/{id}/feed`  
+Path: `/api/v1/categories/{id}/feed` 
+
+* Authorization header should be: `AuthToken <access_token>`
 
 Available methods:
 
