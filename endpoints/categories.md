@@ -4,6 +4,8 @@ Categories
 
 Path: `/api/v1/categories`
 
+* Authorization header should be: `AuthToken <access_token>`
+
 Available methods:
 
 |Method|Description|
