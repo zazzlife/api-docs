@@ -3,6 +3,7 @@ Remove Photo Like
 
 Path: `/api/v1/removephotolike`  
 
+* Authorization header should be: `AuthToken <access_token>`
 
 GET
 -
