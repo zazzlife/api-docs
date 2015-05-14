@@ -3,6 +3,7 @@ Post Like
 
 Path: `/api/v1/postlike`  
 
+* Authorization header should be: `AuthToken <access_token>`
 
 GET
 -
