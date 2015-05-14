@@ -3,6 +3,8 @@ Rewards
 
 Path: `/api/v1/rewards`  
 
+* Authorization header should be: `AuthToken <access_token>`
+
 Available methods:
 
 |Method|Description|
