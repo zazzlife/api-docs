@@ -3,6 +3,7 @@ Remove Post Like
 
 Path: `/api/v1/removepostlike`  
 
+* Authorization header should be: `AuthToken <access_token>`
 
 GET
 -
