@@ -5,6 +5,8 @@ Path: `/api/v1/comments/posts`
 
 Available methods:
 
+* Authorization header should be: `AuthToken <access_token>`
+
 |Method|Description|
 |------|-----------|
 |GET|used for getting comments on a post|
