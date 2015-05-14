@@ -4,6 +4,8 @@ Cities
 
 Path: `/api/v1/cities`
 
+* Authorization header should be: `AuthToken <access_token>`
+
 Available methods:
 
 |Method|Description|
