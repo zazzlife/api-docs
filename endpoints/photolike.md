@@ -3,6 +3,7 @@ Photo Like
 
 Path: `/api/v1/photolike`  
 
+* Authorization header should be: `AuthToken <access_token>`
 
 GET
 -
