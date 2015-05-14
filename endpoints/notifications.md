@@ -1,7 +1,9 @@
 Notifications
 =
 
-Path: `/api/v1/notifications`  
+Path: `/api/v1/notifications` 
+
+* Authorization header should be: `AuthToken <access_token>`
 
 Available methods:
 
