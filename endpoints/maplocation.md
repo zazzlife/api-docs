@@ -3,6 +3,8 @@ MapLocation
 
 Path: `/api/v1/maplocation`  
 
+* Authorization header should be: `AuthToken <access_token>`
+
 Available methods:
 
 |Method|Description|
