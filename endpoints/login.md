@@ -31,6 +31,7 @@ example:
 
 |Property Name|Type|Description|
 |-------------|----|-----------|
+|userId|integer|the user id for Zazz|
 |access_token|string|use this access token in auth header for all resource API calls|
 |token_type|string|scheme of the token|
 |expires_in|integer|token expiration time in seconds|
@@ -39,6 +40,7 @@ example:
 example:
 
     {
+        "userId": 3,
         "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjEzNzM2MTQ0MDksImF1ZCI6IlphenogY2xpZW50cyIsInVzciI6MSwiY2xpZW50IjoxLCJpc3MiOiJodHRwczovL3d3dy56YXp6bGlmZS5jb20iLCJ0b2tlblR5cGUiOiJhY2Nlc3NUb2tlbiIsIm5iZiI6MTM3MzYxMDgwOX0.-hHF7Cp7EOT-Rh92ipPmBOdDgZ2fYB-kaaAT6sHFW38",
         "token_type": "Bearer",
         "expires_in": 3600,
